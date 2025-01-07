@@ -396,7 +396,7 @@ def plot_convex(ax,input_file,proto_atom,A_atom,title=None,out_file=None,graph_n
           plt.scatter(group[:,0],group[:,1],s=25,color=name_color_dict[group_name],fc=faceKey[group_name],marker=indexKey[group_name],label = legend_names[j])
     
 
-  plt.legend(ncol=3,loc='upper left', borderpad=0.1, handlelength=0.5,bbox_to_anchor=(0, 1.2),scatterpoints=1,fontsize=7,labelcolor='gray',frameon = False)  # first size was 1.4, 1.6
+  plt.legend(ncol=3,loc='upper left', borderpad=0.1, handlelength=0.5,bbox_to_anchor=(0, 1.1),scatterpoints=1,fontsize=7,labelcolor='gray',frameon = False)  # first size was 1.4, 1.6
 
 
   if title != None:
