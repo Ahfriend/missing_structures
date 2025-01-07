@@ -10,9 +10,9 @@ trying to add arrows.
 '''
 
 import sys
-sys.path.append('/work/alonh/AUTO_FLOW')
+#sys.path.append('/work/alonh/AUTO_FLOW')
 
-from convex_hull_layers_function_11_3_1 import plot_convex 
+from convex_function_fig_1_and_2 import plot_convex 
 import matplotlib as mpl
 mpl.use('Agg')
 import matplotlib.pyplot as plt
@@ -23,7 +23,7 @@ with open(convex_inputs_file ,'r') as f:
   lines = f.readlines()
 
 cwd = os.getcwd()
-abc = ['a','b','c','d']
+abc = ['(a)','(b)','(c)','(d)']
 fig = plt.figure(figsize=(6.4,6.4))
 ticks_len = []
 axes = []
@@ -53,18 +53,17 @@ for i,line in enumerate(lines):
   ax.set_yticks([])
  
   # Change font size for xticks and yticks
-  ax.tick_params(axis='x', labelsize=8)
+  ax.tick_params(axis='x', labelsize=7)
   ax.tick_params(axis='y', labelsize=8)
 
-  # letters for each graph
-  ax.annotate(text=abc[i],xy =(-0.1,0.6) ,xycoords='axes fraction',fontsize=8,fontweight='bold',color='black') 
 
   plt.xlim(-0.1,1.6)
 
   axins = plot_convex(ax,[input_file],proto_atom,A_atom,title=None,out_file=None,graph_num=1,proto_graph=True,ptable=None,on_convex_only=None)
   
 #----  Graph title for each graph e.g. TiS
-  plt.annotate(text=A_atom+proto_atom,xy=(0,1.2),xycoords='axes fraction',fontsize=7,fontweight='bold',color = 'black')
+  plt.annotate(A_atom+proto_atom,xy=(0.0,1.2),xycoords='axes fraction',fontsize=7,fontweight='bold',color = 'black')
+  plt.annotate(text=abc[i],xy =(-0.1,1.2) ,xycoords='axes fraction',fontsize=8,color='black')        
 
 
 #---- TiS  new sturcture annotation -------
@@ -83,7 +82,6 @@ plt.annotate(text='$y$/($x$+$y$)',xy =(0.5,0.01) ,xycoords='figure fraction',fon
 os.chdir(cwd)
 plt.subplots_adjust(left=0.1, right=1.1, top=1.1, bottom=0.1, wspace=0, hspace=-0.1)
 plt.savefig('fig_1.png',dpi=400)
-plt.savefig('fig_1.eps')
 plt.savefig('fig_1.pdf')
 
 
