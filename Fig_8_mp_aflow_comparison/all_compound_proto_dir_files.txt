@@ -1,0 +1,8 @@
+/andata2/alonh/missing_structures/As_Se/comparison_to_mp  As_Se
+/work/alonh/AUTO_FLOW/Projects/Binary/missing_proto_S/Bi_S/comparison_to_mp  Bi_S
+/work/alonh/AUTO_FLOW/Projects/Binary/missing_proto_S/Ti_S/comparison_to_mp  Ti_S
+/andata2/alonh/missing_structures/Cu_S/comparison_to_mp  Cu_S
+/andata2/alonh/missing_structures/Nb_S/comparison_to_mp  Nb_S
+/work/alonh/AUTO_FLOW/Projects/Binary/missing_proto_S/Se_Cu/Cu_Se/comparison_to_mp  Cu_Se
+/andata2/alonh/missing_structures/Ta_Se/comparison_to_mp  Ta_Se
+/andata2/alonh/missing_structures/Zr_Se/comparison_to_mp  Zr_Se

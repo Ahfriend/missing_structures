@@ -1,0 +1,27 @@
+import sys
+sys.path.append('/work/alonh/AUTO_FLOW/Projects/Binary/missing_proto_S')
+from prototypes_distribution_in_columns_2 import prototypes_distribution_in_columns
+import matplotlib as mpl
+mpl.use('Agg')
+import matplotlib.pyplot as plt
+
+fig = plt.figure(figsize=(6.4,5))
+
+# TaxSey
+fig,ax = plt.subplots(211)
+input_file = '/andata2/alonh/missing_structures/Ta_Se/extended_convex_data.txt'
+proto_atom = 'Se'
+A_atom = 'Ta'
+prototypes_distribution_in_columns(ax,input_file,proto_atom,A_atom)
+
+
+# TixSy
+fig,ax = plt.subplots(212)
+input_file = '/work/alonh/AUTO_FLOW/Projects/Binary/missing_proto_S/Ti_S/extended_convex_data.txt'
+proto_atom = 'S'
+A_atom = 'Ti'
+prototypes_distribution_in_columns(ax,input_file,proto_atom,A_atom)
+
+
+plt.savefig('structure_in_columns.png')
+

@@ -1,0 +1,4 @@
+/andata2/alonh/missing_structures/Zr_Se                             Zr_Se_convex_input.txt
+/work/alonh/AUTO_FLOW/Projects/Binary/missing_proto_S/Se_Cu/Cu_Se   Cu_Se_convex_input.txt
+/andata2/alonh/missing_structures/Ta_Se                             Ta_Se_convex_input.txt
+/andata2/alonh/missing_structures/As_Se                             As_Se_convex_input.txt

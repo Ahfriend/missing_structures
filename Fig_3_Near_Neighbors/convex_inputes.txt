@@ -1,0 +1,8 @@
+/work/alonh/AUTO_FLOW/Projects/Binary/missing_proto_S/Ti_S         Ti_S_convex_input_neighbors.txt
+/andata2/alonh/missing_structures/Ta_Se                            Ta_Se_convex_input_neighbors.txt
+/work/alonh/AUTO_FLOW/Projects/Binary/missing_proto_S/Bi_S         Bi_S_convex_input_neighbors.txt
+/andata2/alonh/missing_structures/As_Se                            As_Se_convex_input_neighbors.txt
+/andata2/alonh/missing_structures/Nb_S                             Nb_S_convex_input_neighbors.txt
+/andata2/alonh/missing_structures/Zr_Se                            Zr_Se_convex_input_neighbors.txt
+/andata2/alonh/missing_structures/Cu_S                             Cu_S_convex_input_neighbors.txt
+/work/alonh/AUTO_FLOW/Projects/Binary/missing_proto_S/Se_Cu/Cu_Se  Cu_Se_convex_input_neighbors.txt

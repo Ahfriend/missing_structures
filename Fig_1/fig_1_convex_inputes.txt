@@ -1,0 +1,4 @@
+/andata2/alonh/missing_structures/Cu_S                       Cu_S_convex_input.txt
+/work/alonh/AUTO_FLOW/Projects/Binary/missing_proto_S/Ti_S   Ti_S_convex_input.txt
+/andata2/alonh/missing_structures/Nb_S                       Nb_S_convex_input.txt
+/work/alonh/AUTO_FLOW/Projects/Binary/missing_proto_S/Bi_S   Bi_S_convex_input.txt

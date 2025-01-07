@@ -1,0 +1,8 @@
+/work/alonh/AUTO_FLOW/Projects/Binary/missing_proto_S/Ti_S/comparison_to_mp   Ti_S_convex_input_TiS.txt  Ti_S_convex_input_our.txt  Ti_S_convex_input_mp.txt Ti_S_convex_input_all.txt Ti_S_convex_input_aflow.txt 
+/andata2/alonh/missing_structures/Ta_Se/comparison_to_mp Ta_Se_convex_input_icsd.txt Ta_Se_convex_input_our.txt Ta_Se_convex_input_mp.txt  Ta_Se_convex_input_all.txt Ta_Se_convex_input_aflow.txt
+/work/alonh/AUTO_FLOW/Projects/Binary/missing_proto_S/Bi_S/comparison_to_mp Bi_S_convex_input_icsd.txt Bi_S_convex_input_our.txt Bi_S_convex_input_mp.txt Bi_S_convex_input_all.txt
+/andata2/alonh/missing_structures/As_Se/comparison_to_mp As_Se_convex_input_icsd.txt As_Se_convex_input_our.txt As_Se_convex_input_mp.txt  As_Se_convex_input_all.txt As_Se_convex_input_aflow.txt
+/andata2/alonh/missing_structures/Nb_S/comparison_to_mp Nb_S_convex_input_icsd.txt Nb_S_convex_input_our.txt Nb_S_convex_input_mp.txt Nb_S_convex_input_all.txt
+/andata2/alonh/missing_structures/Zr_Se/comparison_to_mp Zr_Se_convex_input_icsd.txt Zr_Se_convex_input_our.txt Zr_Se_convex_input_mp.txt  Zr_Se_convex_input_all.txt Zr_Se_convex_input_aflow.txt
+/andata2/alonh/missing_structures/Cu_S/comparison_to_mp Cu_S_convex_input_icsd.txt Cu_S_convex_input_our.txt Cu_S_convex_input_mp.txt Cu_S_convex_input_all.txt Cu_S_convex_input_aflow.txt
+/work/alonh/AUTO_FLOW/Projects/Binary/missing_proto_S/Se_Cu/Cu_Se/comparison_to_mp Cu_Se_convex_input_icsd.txt Cu_Se_convex_input_our.txt Cu_Se_convex_input_mp.txt Cu_Se_convex_input_all.txt Cu_Se_convex_input_aflow.txt
